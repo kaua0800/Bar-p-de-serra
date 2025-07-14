@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bar Pé de Serra - Cardápio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background: #8B0000;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+    }
+    h1 {
+      margin: 0;
+    }
+    .cardapio {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .item {
+      border-bottom: 1px solid #ddd;
+      padding: 1rem 0;
+    }
+    .item:last-child {
+      border: none;
+    }
+    .nome {
+      font-size: 1.2rem;
+      font-weight: bold;
+    }
+    .descricao {
+      font-size: 0.95rem;
+      color: #666;
+    }
+    .preco {
+      color: green;
+      font-weight: bold;
+      margin-top: 0.5rem;
+    }
+    .whatsapp {
+      display: block;
+      width: fit-content;
+      margin: 2rem auto;
+      background: #25D366;
+      color: white;
+      padding: 0.8rem 1.2rem;
+      text-decoration: none;
+      border-radius: 5px;
+      font-size: 1.1rem;
+    }
+    .whatsapp:hover {
+      background: #1ebe5b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Bar Pé de Serra</h1>
+    <p>Confira nosso cardápio!</p>
+  </header>
+  <section class="cardapio">
+    <div class="item">
+      <div class="nome">X-Burguer</div>
+      <div class="descricao">Pão, hambúrguer, queijo, alface e tomate</div>
+      <div class="preco">R$ 12,00</div>
+    </div>
+    <div class="item">
+      <div class="nome">X-Salada</div>
+      <div class="descricao">Hambúrguer, queijo, presunto, alface, tomate e maionese</div>
+      <div class="preco">R$ 14,00</div>
+    </div>
+    <div class="item">
+      <div class="nome">Batata Frita</div>
+      <div class="descricao">Porção individual de batata frita crocante</div>
+      <div class="preco">R$ 10,00</div>
+    </div>
+    <div class="item">
+      <div class="nome">Refrigerante Lata</div>
+      <div class="descricao">Coca-Cola, Pepsi ou Guaraná (350ml)</div>
+      <div class="preco">R$ 5,00</div>
+    </div>
+  </section>
+
+  <a class="whatsapp" href="https://wa.me/5581997839240" target="_blank">Fazer pedido pelo WhatsApp</a>
+</body>
+</html>
